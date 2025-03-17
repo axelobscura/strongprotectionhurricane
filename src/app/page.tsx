@@ -86,6 +86,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="w-full flex flex-col items-start">
+          <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
+            textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
+          }}>Features</h1>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         
