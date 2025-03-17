@@ -23,6 +23,17 @@ export default function Home() {
           <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
             textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
           }}>Our Work</h1>
+          <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
+            <div>
+ergerg
+            </div>
+            <div>
+              <p className="text-orange-700 text-center font-bold text-4xl">This is an innovative product combining the strength and flexibility of the strap and bucklesystem.</p>
+            </div>
+            <div>
+ergerg
+            </div>
+          </div>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
