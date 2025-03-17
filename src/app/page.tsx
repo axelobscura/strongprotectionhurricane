@@ -25,13 +25,64 @@ export default function Home() {
           }}>Our Work</h1>
           <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
             <div>
-ergerg
+            <Image
+              src="/f5.jpg"
+              width={500}
+              height={200}
+              alt="Logo"
+            />
             </div>
             <div>
               <p className="text-orange-700 text-center font-bold text-4xl">This is an innovative product combining the strength and flexibility of the strap and bucklesystem.</p>
             </div>
             <div>
-ergerg
+            <Image
+              src="/f4.jpg"
+              width={500}
+              height={200}
+              alt="Logo"
+            />
+            </div>
+          </div>
+          <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
+            <div>
+            <Image
+              src="/f3.jpg"
+              width={500}
+              height={200}
+              alt="Logo"
+            />
+            </div>
+            <div>
+            <Image
+              src="/f2.jpg"
+              width={500}
+              height={200}
+              alt="Logo"
+            />
+            </div>
+            <div>
+            <Image
+              src="/f1.jpg"
+              width={500}
+              height={200}
+              alt="Logo"
+            />
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center justify-center bg-slate-900 min-h-screen">
+          <div className="grid grid-cols-[1fr_1fr] items-center justify-items-center w-full py-10 gap-10">
+            <div>
+              <Image
+                src="/f6.jpg"
+                width={700}
+                height={200}
+                alt="Logo"
+              />
+            </div>
+            <div>
+              <p className="text-white text-4xl">The strap and buckle is quick to install and easy to deplay This system incorporates a flexible attachment design to fasten the hurricane screen to the structure.<br/><br/>Our screen provides “FULL ENVELOPE“ protection of your home deplecting hurricane forewinds and preventing pressurization of home.</p>
             </div>
           </div>
         </div>
