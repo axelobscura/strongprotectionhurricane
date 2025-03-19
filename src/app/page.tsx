@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
             textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
           }}>Our Work</h1>
-          <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
+          <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
             <div>
             <Image
               src="/f5.jpg"
@@ -46,7 +46,7 @@ export default function Home() {
             />
             </div>
           </div>
-          <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-10">
+          <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full py-0 sm:py-10">
             <div>
             <Image
               src="/f3.jpg"
@@ -74,7 +74,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full flex flex-col items-center justify-center bg-slate-900 min-h-screen">
-          <div className="grid grid-cols-[1fr_1fr] items-center justify-items-center w-full py-10 gap-10">
+          <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr] items-center justify-items-center w-full py-10 gap-10">
             <div>
               <Image
                 src="/f6.jpg"
@@ -84,7 +84,7 @@ export default function Home() {
               />
             </div>
             <div>
-              <p className="text-white text-4xl">The strap and buckle is quick to install and easy to deplay This system incorporates a flexible attachment design to fasten the hurricane screen to the structure.<br/><br/>Our screen provides “FULL ENVELOPE“ protection of your home deplecting hurricane forewinds and preventing pressurization of home.</p>
+              <p className="text-white text-4xl p-5">The strap and buckle is quick to install and easy to deplay This system incorporates a flexible attachment design to fasten the hurricane screen to the structure.<br/><br/>Our screen provides “FULL ENVELOPE“ protection of your home deplecting hurricane forewinds and preventing pressurization of home.</p>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full bg-gray-200">
-          <div className="grid grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full p-10 gap-3 font-bold">
+          <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full p-10 gap-3 font-bold">
             <div className="flex flex-col items-center justify-center">
               <Image
                 src="/logo.png"
