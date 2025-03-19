@@ -113,6 +113,9 @@ export default function Home() {
             </div>
             </div>
         </div>
+        <div className="w-full bg-[url('/contacto.jpg')] min-h-screen bg-cover bg-center flex flex-col items-start justify-center">
+          <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Protect your home before the next storm.</h2>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full bg-gray-200">
           <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full p-10 gap-3 font-bold">
