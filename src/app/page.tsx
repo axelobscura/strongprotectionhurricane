@@ -130,7 +130,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="flex justify-center items-center mb-3 text-gray-900"><FaMapMarkerAlt color="#ff0000" size={25} className="mr-2" /> San José Del Cabo B.C.S</p>
-              <p className="flex justify-center items-center text-gray-900"><FaWhatsapp color="#09a32a" size={25} className="mr-2" />+52 1 624 122 0302</p>
+              <p className="flex justify-center items-center text-gray-900"><FaWhatsapp color="#09a32a" size={25} className="mr-2" />+52 1 62 4122 7600</p>
             </div>
             <div className="flex flex-col items-center justify-center">
               <p className="text-gray-900">hola@strongprotectionhurricane.com</p>
