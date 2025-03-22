@@ -117,7 +117,7 @@ export default function Home() {
           <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Protect your home before the next storm.</h2>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full bg-gray-200">
+      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full bg-gray-200 ">
           <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full p-10 gap-3 font-bold">
             <div className="flex flex-col items-center justify-center">
               <Image
@@ -129,11 +129,11 @@ export default function Home() {
               <p className="mt-3">The best decision for your assets!</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p className="flex justify-center items-center mb-3"><FaMapMarkerAlt color="#ff0000" size={25} className="mr-2" /> San José Del Cabo B.C.S</p>
-              <p className="flex justify-center items-center"><FaWhatsapp color="#09a32a" size={25} className="mr-2" />+52 1 624 122 0302</p>
+              <p className="flex justify-center items-center mb-3 text-gray-900"><FaMapMarkerAlt color="#ff0000" size={25} className="mr-2" /> San José Del Cabo B.C.S</p>
+              <p className="flex justify-center items-center text-gray-900"><FaWhatsapp color="#09a32a" size={25} className="mr-2" />+52 1 624 122 0302</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <p>hola@strongprotectionhurricane.com</p>
+              <p className="text-gray-900">hola@strongprotectionhurricane.com</p>
             </div>
           </div>
       </footer>
