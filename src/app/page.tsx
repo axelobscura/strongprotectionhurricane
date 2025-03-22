@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[1fr] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <main className="w-full">
-        <div className="flex flex-row items-center justify-between p-3">
+        <div className="flex flex-row items-center justify-between p-3 bg-white">
           <Image
           src="/logo.png"
           width={200}
