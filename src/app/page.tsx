@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -13,6 +14,19 @@ export default function Home() {
           height={200}
           alt="Logo"
           />
+          <div>
+            <ul className="flex">
+                <li className="mr-5">
+                    <Link href={"/"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">Home</Link>
+                </li>
+                <li className="mr-5">
+                    <Link href={"/about-us"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">About Us</Link>
+                </li>
+                <li>
+                    <Link href={"/contact"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">Contact</Link>
+                </li>
+            </ul>
+          </div>
           <FaWhatsapp color="#09a32a" size={75} className="mr-2" />
         </div>
         <div className="w-full bg-[url('/uno.jpg')] min-h-screen bg-cover bg-center flex flex-col items-start justify-center">
