@@ -1,7 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
 import Menu from "../components/menu";
 import Footer from "../components/footer";
 
