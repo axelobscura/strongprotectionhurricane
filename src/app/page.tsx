@@ -2,7 +2,7 @@ import Image from "next/image";
 import Menu from "./components/menu";
 import Footer from "./components/footer";
 import Link from "next/link";
-import Contact from "./components/contact";
+import ContactForm from "./components/contactForm";
 
 export default function Home() {
   return (
@@ -172,7 +172,7 @@ export default function Home() {
             <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Protect your home before the next storm.</h2>
           </div>
           <div>
-            <Contact />
+            <ContactForm />
           </div>
         </div>
       </main>
