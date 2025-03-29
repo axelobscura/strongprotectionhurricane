@@ -1,39 +1,20 @@
 import Image from "next/image";
+import Menu from "./components/menu";
+import Footer from "./components/footer";
 import Link from "next/link";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import Contact from "./components/contact";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[1fr] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <main className="w-full">
-        <div className="flex flex-row items-center justify-between p-3 bg-white">
-          <Image
-          src="/logo.png"
-          width={200}
-          height={200}
-          alt="Logo"
-          />
-          <div>
-            <ul className="flex">
-                <li className="mr-5">
-                    <Link href={"/"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">Home</Link>
-                </li>
-                <li className="mr-5">
-                    <Link href={"/about-us"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">About Us</Link>
-                </li>
-                <li>
-                    <Link href={"/contact"} className="text-gray-900 hover:text-orange-700 uppercase font-bold text-2xl">Contact</Link>
-                </li>
-            </ul>
-          </div>
-          <FaWhatsapp color="#09a32a" size={75} className="mr-2" />
-        </div>
+        <Menu />
         <div className="w-full bg-[url('/uno.jpg')] min-h-screen bg-cover bg-center flex flex-col items-start justify-center">
           <h1 className="px-10 text-8xl text-white font-bold" style={{
             textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
           }}>Fabric Hurricane Screen</h1>
-          <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Perfect for homes and commercial properties.</h2>
+          <h2 className="px-10 text-2xl text-custom-orange bg-slate-900 p-5 font-bold ml-10">Perfect for homes and commercial properties.</h2>
+          <Link href="/contact" className="px-10 text-2xl text-white bg-slate-900 hover:bg-slate-600 p-5 font-bold m-5 ml-32 rounded-2xl">Free en Home evaluation</Link>
         </div>
         <div className="w-full flex flex-col items-start">
           <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
@@ -46,6 +27,7 @@ export default function Home() {
               width={500}
               height={200}
               alt="Logo"
+              className="transition-transform transform hover:scale-140 duration-300 ease-in-out"
             />
             </div>
             <div>
@@ -57,6 +39,7 @@ export default function Home() {
               width={500}
               height={200}
               alt="Logo"
+              className="transition-transform transform hover:scale-140 duration-300 ease-in-out"
             />
             </div>
           </div>
@@ -67,6 +50,7 @@ export default function Home() {
               width={500}
               height={200}
               alt="Logo"
+              className="transition-transform transform hover:scale-140 duration-300 ease-in-out"
             />
             </div>
             <div>
@@ -75,6 +59,7 @@ export default function Home() {
               width={500}
               height={200}
               alt="Logo"
+              className="transition-transform transform hover:scale-140 duration-300 ease-in-out"
             />
             </div>
             <div>
@@ -83,6 +68,7 @@ export default function Home() {
               width={500}
               height={200}
               alt="Logo"
+              className="transition-transform transform hover:scale-140 duration-300 ease-in-out"
             />
             </div>
           </div>
@@ -106,51 +92,91 @@ export default function Home() {
           <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
             textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
           }}>Features</h1>
-            <div className="grid grid-cols-[1fr_1fr] items-stretch justify-start w-full p-10 gap-3">
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Our hurricane screen reduces hurricane and wind velocity up to 95%.</p>
+            <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr] items-stretch justify-start w-full p-10 gap-3">
+            <div className="bg-gray-100 flex items-center rounded-4xl relative">   
+              <p className="text-gray-700 text-left font-bold text-2xl p-1 pl-30">
+                <Image
+                  src="/Features6.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 left-0 z-20"
+                />
+                Our hurricane screen reduces hurricane and wind velocity up to 95%.
+              </p>
             </div>
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Florida building code approved (FL-1129)</p>
+            <div className="bg-gray-100 flex items-center rounded-4xl relative">   
+              <p className="text-gray-700 text-left font-bold text-2xl p-1 pl-30">
+                <Image
+                  src="/Features3.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 left-0 z-20"
+                />
+                Florida building code approved (FL-1129)
+              </p>
             </div>
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Straps can be securely tightened for increase tautness</p>
+            <div className="bg-gray-100 flex items-center rounded-4xl relative"> 
+              <p className="text-gray-700 text-left font-bold text-2xl p-1 pl-10 pr-30">
+                <Image
+                  src="/Features1.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 right-0 z-20"
+                />
+                Straps can be securely tightened for increase tautness
+              </p>
             </div>
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Miami Dade (Noa 140207-0)</p>
+            <div className="bg-gray-100 flex items-center rounded-4xl relative"> 
+              <p className="text-gray-700 text-left font-bold text-2xl p-5">
+                <Image
+                  src="/Features4.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 right-0 z-20"
+                />
+                Miami Dade (Noa 140207-0)
+              </p>
             </div>
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Filters in light the Room, enabling you to see out</p>
+            <div className="bg-gray-100 flex items-center rounded-4xl relative">   
+              <p className="text-gray-700 text-left font-bold text-2xl p-1 pl-30 pr-0">
+                <Image
+                  src="/Features2.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 left-0 z-20"
+                />
+                Filters in light the Room, enabling you to see out
+              </p>
             </div>
-            <div className="bg-gray-100 flex items-center">   
-              <p className="text-gray-700 text-left font-bold text-2xl p-5">Available in multiple colors, to blend your home’s exterior</p>
+            <div className="bg-gray-100 flex items-center rounded-4xl relative"> 
+              <p className="text-gray-700 text-left font-bold text-2xl p-1 pr-30 pl-10">
+                <Image
+                  src="/Features5.svg"
+                  width={100}
+                  height={100}
+                  alt="Logo"
+                  className="absolute top-0 right-0 z-20"
+                />
+                Available in multiple colors, to blend your home’s exterior
+              </p>
             </div>
             </div>
         </div>
-        <div className="w-full bg-[url('/contacto.jpg')] min-h-screen bg-cover bg-center flex flex-col items-start justify-center">
-          <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Protect your home before the next storm.</h2>
+        <div className="w-full bg-[url('/contacto.jpg')] min-h-screen bg-cover bg-center grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr] justify-center items-center">
+          <div>
+            <h2 className="px-10 text-2xl text-white bg-slate-900 p-5 font-bold">Protect your home before the next storm.</h2>
+          </div>
+          <div>
+            <Contact />
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full bg-gray-200 ">
-          <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_1fr_1fr] items-center justify-items-center w-full p-10 gap-3 font-bold">
-            <div className="flex flex-col items-center justify-center">
-              <Image
-                src="/logo.png"
-                width={200}
-                height={200}
-                alt="Logo"
-              />
-              <p className="mt-3">The best decision for your assets!</p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <p className="flex justify-center items-center mb-3 text-gray-900"><FaMapMarkerAlt color="#ff0000" size={25} className="mr-2" /> San José Del Cabo B.C.S</p>
-              <p className="flex justify-center items-center text-gray-900"><FaWhatsapp color="#09a32a" size={25} className="mr-2" />+52 1 62 4122 7600</p>
-            </div>
-            <div className="flex flex-col items-center justify-center">
-              <p className="text-gray-900">hola@strongprotectionhurricane.com</p>
-            </div>
-          </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
