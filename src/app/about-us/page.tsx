@@ -8,7 +8,7 @@ export default function AboutUs() {
       <main className="w-full">
         <Menu />
         <div className="w-full flex flex-col items-start">
-          <h1 className="px-10 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
+          <h1 className="py-20 text-6xl text-slate-900 font-bold p-5 w-full text-center" style={{
             textShadow: '4px 4px 4px rgba(244,126,1,0.5)'
           }}>About Us Strong Protection Hurricane</h1>
           <div className="grid grid-cols-[1fr] sm:grid-cols-[1fr_2fr] items-center justify-items-center w-full py-10">
