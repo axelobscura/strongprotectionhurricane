@@ -22,8 +22,8 @@ export default function AboutUs() {
             </div>
             <div className="px-5">
               <p className="text-custom-orange font-bold text-4xl pb-3">This is an innovative product combining the strength and flexibility of the strap and bucklesystem.</p>
-              <p className="pr-52 text-justify">Strong Protection Hurricane is a company founded in 2003 to meet the Baja California markets need for reliable and safe hurricane installation and protection.<br/><br/>Over the years, the field of hurricane protection has evolved, which is why we now offer a variety of options and improved solutions for your home.<br/><br/>Our products are backed by the building codes and licenses of the State of Florida.</p>
-              <ul className="list-disc pl-5 pt-5">
+              <p className="pr-52 text-justify text-gray-900">Strong Protection Hurricane is a company founded in 2003 to meet the Baja California markets need for reliable and safe hurricane installation and protection.<br/><br/>Over the years, the field of hurricane protection has evolved, which is why we now offer a variety of options and improved solutions for your home.<br/><br/>Our products are backed by the building codes and licenses of the State of Florida.</p>
+              <ul className="list-disc pl-5 pt-5 text-gray-900">
                 <li>Our design offers precise translucency, allowing you to see outside.</li>
                 <li>We provide a flap option that stays securely in place.</li>
                 <li>Our locking mechanism ensures 99% security.</li>

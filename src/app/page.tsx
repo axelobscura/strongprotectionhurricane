@@ -31,7 +31,7 @@ export default function Home() {
             />
             </div>
             <div>
-              <p className="text-orange-700 text-center font-bold text-4xl">This is an innovative product combining the strength and flexibility of the strap and bucklesystem.</p>
+              <p className="text-orange-700 text-center font-bold text-4xl py-3 w-full">This is an innovative product combining the strength and flexibility of the strap and buckle system.</p>
             </div>
             <div>
             <Image
