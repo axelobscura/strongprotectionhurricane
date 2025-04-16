@@ -4,10 +4,10 @@ import { FaWhatsapp } from "react-icons/fa";
 export default function Contact() {
     return (
         <div className="flex flex-col items-center justify-center bg-gray-100 m-10 rounded-4xl p-5 py-30">
-            <h3 className="text-4xl uppercase p-5 font-extrabold mb-5">Contact</h3>
+            <h3 className="text-4xl uppercase p-5 font-extrabold mb-5 text-gray-900">Contact</h3>
             <form className="flex flex-col items-center justify-center w-full">
-                <input type="text" placeholder="Name" className="border-2 border-gray-300 rounded-lg p-2 mb-4 w-full max-w-md" />
-                <input type="email" placeholder="Email" className="border-2 border-gray-300 rounded-lg p-2 mb-4 w-full max-w-md" />
+                <input type="text" placeholder="Name" className="border-2 border-gray-300 rounded-lg p-2 mb-4 w-full max-w-md text-gray-900" />
+                <input type="email" placeholder="Email" className="border-2 border-gray-300 rounded-lg p-2 mb-4 w-full max-w-md text-gray-900" />
                 <textarea placeholder="Message" className="border-2 border-gray-300 rounded-lg p-2 mb-4 w-full max-w-md h-32"></textarea>
                 <button type="submit" className="bg-custom-orange text-white font-bold py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">Send</button>
             </form>

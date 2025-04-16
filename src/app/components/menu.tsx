@@ -24,7 +24,7 @@ export default function Menu() {
                 </li>
             </ul>
           </div>
-          <Link href="https://wa.me/5216241220302" target="_blank" className="flex items-center justify-center">
+          <Link href="https://wa.me/5216241227600" target="_blank" className="flex items-center justify-center">
             <FaWhatsapp color="#09a32a" size={75} className="mr-2 fixed right-0 top-0/12 bg-white rounded-2xl p-2" />
           </Link>
         </div>
